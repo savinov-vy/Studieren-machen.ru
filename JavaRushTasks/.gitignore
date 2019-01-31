@@ -8,13 +8,19 @@ target/
 *.iml
 *.iws
 *.jrtc
-*.java
+
 *.class
 *.info
-*.properties
+
 *.jar
+
+
+
+
+
 
 /out/
 /JavaRushPlugin.properties
-/Инструкция.png
+/Instruction.png
 /out.log
+/out.log.*
