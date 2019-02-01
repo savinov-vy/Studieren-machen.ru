@@ -18,15 +18,14 @@ public class Circle {
 
     public Circle(double x, double y) {
         //напишите тут ваш код
-        this.x = x;
-        this.y = y;
-        this.radius = 10;
+ this (x, y, 10);
 
     }
 
     public Circle() {
         this(5, 5, 1);
     }
+
 
     public static void main(String[] args) {
         Circle circle = new Circle();
