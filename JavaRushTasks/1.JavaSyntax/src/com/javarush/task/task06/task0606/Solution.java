@@ -12,7 +12,7 @@ public class Solution {
     public static int odd;
 
     public static void main(String[] args) throws IOException {
-        //напишите тут ваш код
+        //напишите тут ваш код.
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String s = reader.readLine();
         int a = Integer.parseInt(s);
