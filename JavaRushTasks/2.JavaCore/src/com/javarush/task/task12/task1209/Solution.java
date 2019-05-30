@@ -22,24 +22,22 @@ public class Solution {
         } else min = b;
         return min;
     }
+
     public static long min(long a, long b) {
         long min;
         if (a <= b) {
             min = a;
-        }
-        else min = b;
-        return  min;
+        } else min = b;
+        return min;
     }
 
     public static double min(double a, double b) {
         double min;
         if (a <= b) {
             min = a;
-        }
-        else min = b;
+        } else min = b;
         return min;
     }
-
 
 
 }

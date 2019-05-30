@@ -22,7 +22,7 @@ public class Solution {
         System.out.println(a);
     }
 
-    public static void print(Integer b) {
+    public static void print(Object b) {
         System.out.print(b);
     }
 
