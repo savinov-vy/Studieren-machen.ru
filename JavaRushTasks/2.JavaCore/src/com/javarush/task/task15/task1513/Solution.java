@@ -16,7 +16,7 @@ public class Solution {
 
     }
 
-    public class Car extends Machine implements Runnable {
+    public class Car extends Machine {
 
     }
 }
