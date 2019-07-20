@@ -26,7 +26,7 @@ public class Solution {
     }
 
     public static class BigFox extends Fox {
-      public Color getColor() {
+        public Color getColor() {
             return Color.GRAY;
         }
 
