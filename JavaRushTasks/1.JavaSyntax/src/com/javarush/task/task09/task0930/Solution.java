@@ -14,7 +14,9 @@ public class Solution {
         ArrayList<String> list = new ArrayList<>();
         while (true) {
             String s = reader.readLine();
-            if (s.isEmpty()) break;
+            if (s.isEmpty()) {
+                break;
+            }
             list.add(s);
         }
 
@@ -28,7 +30,6 @@ public class Solution {
 
     public static void sort(String[] array) {
         // напишите тут ваш код
-
     }
 
     // Метод для сравнения строк: 'а' больше чем 'b'
@@ -39,7 +40,9 @@ public class Solution {
 
     // Переданная строка - это число?
     public static boolean isNumber(String s) {
-        if (s.length() == 0) return false;
+        if (s.length() == 0) {
+            return false;
+        }
 
         char[] chars = s.toCharArray();
         for (int i = 0; i < chars.length; i++) {
