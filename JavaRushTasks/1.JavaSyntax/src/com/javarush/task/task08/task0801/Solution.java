@@ -5,11 +5,12 @@ HashSet из растений
 */
 
 import java.util.HashSet;
+import java.util.Set;
 
 public class Solution {
     public static void main(String[] args) throws Exception {
         //напишите тут ваш код
-        HashSet<String> list = new HashSet<>();
+        Set<String> list = new HashSet<>();
         list.add("арбуз");
         list.add("банан");
         list.add("вишня");

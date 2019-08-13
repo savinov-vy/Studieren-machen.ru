@@ -29,20 +29,35 @@ public class Solution {
 
     public static int getCountTheSameFirstName(HashMap<String, String> map, String name) {
         //напишите тут ваш код
-        int countEqualFirstName = 0;
+        ArrayList<String> valueFirstName = new ArrayList<>();
         for (Map.Entry<String, String> pair : map.entrySet()) {
             String s = pair.getValue();
-            if (s.equals(name)) countEqualFirstName++;
+            valueFirstName.add(s);
+        }
+        int countEqualFirstName = 1;
+        for (int i = 0; i < valueFirstName.size(); i++) {
+            for (int j = i + 1; j < valueFirstName.size(); j++) {
+
+                if (valueFirstName.get(i).equals(valueFirstName.get(j))) countEqualFirstName++;
+            }
         }
         return countEqualFirstName;
     }
 
     public static int getCountTheSameLastName(HashMap<String, String> map, String lastName) {
         //напишите тут ваш код
-        int countEqualLastName = 0;
+        ArrayList<String> valueLastName = new ArrayList<>();
         for (Map.Entry<String, String> pair : map.entrySet()) {
-            String s = pair.getKey();
-            if (s.equals(lastName)) countEqualLastName++;
+            String s = pair.getValue();
+            valueLastName.add(s);
+        }
+        int countEqualLastName = 1;
+        for (int i = 0; i < valueLastName.size(); i++) {
+            for (int j = i + 1; j < valueLastName.size(); j++) {
+
+                if (valueLastName.get(i).equals(valueLastName.get(j))) countEqualLastName++;
+
+            }
         }
         return countEqualLastName;
     }
